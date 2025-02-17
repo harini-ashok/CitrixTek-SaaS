@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Solutions } from "./components/solutions";
@@ -8,7 +8,6 @@ import { Services } from "./components/services";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
-import {CaseStudiesPage} from "./components/CaseStudiesPage";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -18,66 +17,26 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const Layout = () => {
+const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
-
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
-  // do some things
-  return <>
-    <div>
-              <Header data={landingPageData.Header} />
-              <Solutions data={landingPageData.Solutions} />
-              <Services data={landingPageData.Services} />
-              <About data={landingPageData.About} />
-              <Team data={landingPageData.Team} />
-              <Testimonials data={landingPageData.Testimonials} />
-              <Contact data={landingPageData.Contact} />
-            </div>
-  </>
-}
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout/>,
-    // errorElement: <NotFound/>
-  },
-  {
-    path: "/about",
-    element: <CaseStudiesPage/>
-  }
-])
-const App = () => {
- 
   return (
     <>
-     <Navigation />
-     <RouterProvider router={router}/>
+    <Router>
+      <Navigation />
+      <Routes>
+      <Route path="/" element={<Header data={landingPageData.Header} />} />
+        <Route path="/Solutions" element={<Solutions data={landingPageData.Solutions} />} />
+        <Route path="/services" element={<Services data={landingPageData.Services} />} />
+        <Route path="/about" element={<About data={landingPageData.About} />} />
+        <Route path="/team" element={<Team data={landingPageData.Team} />} />
+        <Route path="/testimonials" element={<Testimonials data={landingPageData.Testimonials} />} />
+        <Route path="/contact" element={<Contact data={landingPageData.Contact} />} />
+      </Routes>
+    </Router>
     </>
-   
-    // <Router>
-    //   <Navigation />
-    //   <Routes>
-    //     <Route
-    //       path="/"
-    //       element={
-    //         <div>
-    //           <Header data={landingPageData.Header} />
-    //           <Solutions data={landingPageData.Solutions} />
-    //           <Services data={landingPageData.Services} />
-    //           <About data={landingPageData.About} />
-    //           <Team data={landingPageData.Team} />
-    //           <Testimonials data={landingPageData.Testimonials} />
-    //           <Contact data={landingPageData.Contact} />
-    //         </div>
-    //       }
-    //     />
-    //     <Route path="/casestudies" element={<CaseStudiesPage />} /> {/* ✅ Fixed path */}
-    //   </Routes>
-    // </Router>
   );
 };
 
