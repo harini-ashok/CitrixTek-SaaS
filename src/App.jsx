@@ -8,6 +8,7 @@ import { Services } from "./components/services";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { CaseStudiesPage } from "./components/CaseStudiesPage";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/about" element={<About data={landingPageData.About} />} />
         <Route path="/team" element={<Team data={landingPageData.Team} />} />
         <Route path="/testimonials" element={<Testimonials data={landingPageData.Testimonials} />} />
+        <Route path="/caseStudies" element={<CaseStudiesPage data={landingPageData.CaseStudiesPage} />} />
         <Route path="/contact" element={<Contact data={landingPageData.Contact} />} />
       </Routes>
     </Router>
