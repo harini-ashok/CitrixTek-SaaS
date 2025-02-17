@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Empowering Businesses with Expert Citrix Solutions",
+    "paragraph": "For over a decade, CitrixTek has been a trusted leader in Citrix solutions, delivering secure, scalable, and high-performance virtual environments. Our certified professionals specialize in Virtual Desktop Support, Cloud Citrix Virtual Desktop, and Azure Virtual Desktop, ensuring seamless deployment and management tailored to your business needs."
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -159,26 +159,36 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "Solutions": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-briefcase",
+      "title": "Consulting",
+      "text": "We design high-availability, high-security Citrix environments that boost productivity and ensure seamless business continuity."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-phone",
+      "title": "Citrix Support",
+      "text": "End-to-end support, including deployment, management, troubleshooting, and 24/7 performance monitoring."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-desktop",
+      "title": "Virtual Desktop Support",
+      "text": " Reliable solutions for Citrix Virtual Desktops, Azure Virtual Desktops, and Azure Citrix Virtual Desktop, ensuring seamless access and top-tier performance."
+    },
+    {
+      "icon": "fa fa-cloud",
+      "title": "Cloud Citrix Virtual Desktop",
+      "text": "Migrate and manage virtual desktops in the cloud for greater flexibility, scalability, and cost-efficiency."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Virtual Desktop Infrastructure (VDI)",
+      "text": "Secure, optimized VDI solutions for seamless remote access and performance."
+    },
+    {
+      "icon": "fa fa-share-alt",
+      "title": "Virtual Delivery Agent (VDA) Services",
+      "text": "Efficient, secure delivery of apps and desktops, enhancing user experience and productivity."
     }
   ]
 }
