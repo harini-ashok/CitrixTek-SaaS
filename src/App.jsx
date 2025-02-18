@@ -23,12 +23,17 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
+
+  // if (!landingPageData || Object.keys(landingPageData).length === 0) {
+  //   return <div>Loading...</div>; // Add a loading state
+  // }
+
   return (
-    <>
+    // <Navigation />
     <Router>
       <Navigation />
       <Routes>
-      <Route path="/" element={<Header data={landingPageData.Header} />} />
+        <Route path="/" element={<Header data={landingPageData.Header} />} />
         <Route path="/Solutions" element={<Solutions data={landingPageData.Solutions} />} />
         <Route path="/services" element={<Services data={landingPageData.Services} />} />
         <Route path="/about" element={<About data={landingPageData.About} />} />
@@ -38,8 +43,8 @@ const App = () => {
         <Route path="/contact" element={<Contact data={landingPageData.Contact} />} />
       </Routes>
     </Router>
-    </>
   );
 };
+
 
 export default App;
