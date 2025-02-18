@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 export const Navigation = (props) => {
   return (
@@ -17,9 +19,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <Link className="navbar-brand page-scroll" to="/">Citrix Tek</Link>
+          {/* <a className="navbar-brand page-scroll" href="/">
             Citrix Tek
-          </a>{" "}
+          </a> */}
+          {" "}
         </div>
 
         <div
@@ -28,34 +32,37 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="/solutions" className="page-scroll">
+            <Link to="/solutions">Solutions</Link>
+              {/* <a href="#solutions" className="page-scroll">
                 Solutions
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/services" className="page-scroll">
+            <Link to="/services">Services</Link>
+              {/* <a href="#services" className="page-scroll">
                 Services
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/about" className="page-scroll">
+            <Link to="/about">About</Link>
+              {/* <a href="#about" className="page-scroll">
                 About
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/testimonials" className="page-scroll">
+            <Link to="/testimonials">Testimonials</Link>
+              {/* <a href="#testimonials" className="page-scroll">
                 Testimonials
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/casestudies" className="page-scroll">
-                Case-Studies
-              </a>
+              <Link to="/casestudies">Case-Studies</Link>
             </li>
             <li>
-              <a href="/contact" className="page-scroll">
+            <Link to="/contact">Contact</Link>
+              {/* <a href="#contact" className="page-scroll">
                 Contact
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>
