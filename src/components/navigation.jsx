@@ -19,7 +19,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <Link className="navbar-brand page-scroll" to="/">Citrix Tek</Link>
+          <Link className="navbar-brand page-scroll" to="/"> 
+          {props.data
+            ? 
+            <img src={props.data.logo} className="nav-logo" alt="Citrix Tek" />
+            : "loading"}</Link>
           {/* <a className="navbar-brand page-scroll" href="/">
             Citrix Tek
           </a> */}

@@ -31,7 +31,7 @@ const App = () => {
   return (
     // <Navigation />
     <Router>
-      <Navigation />
+      <Navigation data={landingPageData.Navigation}/>
       <Routes>
         <Route path="/" element={<Header data={landingPageData.Header} />} />
         <Route path="/Solutions" element={<Solutions data={landingPageData.Solutions} />} />

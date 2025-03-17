@@ -4,19 +4,29 @@
     "paragraph": "For over a decade, CitrixTek has been a trusted leader in Citrix solutions, delivering secure, scalable, and high-performance virtual environments. Our certified professionals specialize in Virtual Desktop Support, Cloud Citrix Virtual Desktop, and Azure Virtual Desktop, ensuring seamless deployment and management tailored to your business needs."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At CitrixTek, we have been delivering expert Citrix solutions for over a decade, helping businesses build secure, scalable, and high-performance virtual environments. Our certified professionals specialize in Virtual Desktop Support, Cloud Citrix, Azure Virtual Desktops, VDI, and VDA setups, ensuring seamless IT operations tailored to your needs. With a commitment to innovation and excellence, we empower organizations to enhance productivity, enable remote work, and safeguard digital infrastructure.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Unmatched Expertise",
+      "High Performance & Reliability",
+      "Scalable & Secure Solutions"
+      
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+      "Compliance & Data Protection",
+      "Optimized Network Efficiency"
+    ],
+    "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Ashok Lakshmichandran",
+      "job": "Managing Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    }
+  ]
   },
   "Gallery": [
     {
@@ -67,35 +77,31 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud-upload",
+      "name": "Migration to Citrix Cloud",
+      "text": "We simplify your transition to the cloud with expert guidance and hands-on support, ensuring minimal disruption and maximum value from your Cloud Citrix Virtual Desktop."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-life-ring",
+      "name": "Citrix Support",
+      "text": "We offer end-to-end Citrix Support to help you deploy, manage, and maintain yourCitrix environment. From troubleshooting issues to proactive performance monitoring, our team ensures that your systems run smoothly 24/7."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-laptop",
+      "name": "Remote Work Solutions",
+      "text": "Our Citrix solutions enable secure and efficient remote work by allowing employees to access applications, data, and desktops from any location, on any device."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Citrix Performance Optimization",
+      "text": "We enhance Citrix Performance through detailed assessments, fine-tuning, and proactive monitoring to eliminate bottlenecks and deliver a seamless user experience."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Citrix Security and Data Leak Prevention (DLP)",
+      "text": "With our advanced Citrix Security measures and Data Leak Prevention (DLP) strategies, we safeguard your sensitive data from breaches and ensure compliance with regulatory standards."
     }
+
   ],
   "Testimonials": [
     {
@@ -105,26 +111,6 @@
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     }
@@ -152,8 +138,8 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "33 Wood ave, #600, Iselin, NJ 08830",
+    "phone": "+1 857 867 0438",
     "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
@@ -190,5 +176,8 @@
       "title": "Virtual Delivery Agent (VDA) Services",
       "text": "Efficient, secure delivery of apps and desktops, enhancing user experience and productivity."
     }
-  ]
+  ],
+  "Navigation":{
+    "logo": "img/nav-logo.png"
+  }
 }

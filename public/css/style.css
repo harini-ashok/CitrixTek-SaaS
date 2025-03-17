@@ -601,6 +601,11 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+.nav-logo{
+  height: 5rem;
+  width: 12rem;
+  padding-bottom: 5px;
+}
 
 @media (max-width: 768px) {
   #about img {
