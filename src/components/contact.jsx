@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-simple-captcha';
+
+
 
 export const Contact = (props) => {
   const [formData, setFormData] = useState({
@@ -12,8 +15,17 @@ export const Contact = (props) => {
     agreeComms: false, // Checkbox field
   });
 
+  const [captchaValue, setCaptchaValue] = useState("");
+  const [captchaValid, setCaptchaValid] = useState(false); // Track CAPTCHA validity
+
+
   const GOOGLE_SHEET_URL =
     "https://script.google.com/macros/s/AKfycbwXRfHxbRFBo8IaGpLWGtJkLv2fIU16YZMWCMP6TRDPcR2TPK0zwtrhQuNJGBvvKgt62Q/exec";
+
+    
+    useEffect(() => {
+      loadCaptchaEnginge(6); // Initialize a 6-character CAPTCHA
+    }, []);
 
   // Handle input changes
   const handleChange = (e) => {
@@ -28,6 +40,13 @@ export const Contact = (props) => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+      // Validate CAPTCHA
+      if (!validateCaptcha(formData.captcha)) {
+        setCaptchaValid(false);
+        return;
+      }
+      setCaptchaValid(true);
 
     try {
       await fetch(GOOGLE_SHEET_URL, {
@@ -49,6 +68,7 @@ export const Contact = (props) => {
         subject: "",
         message: "",
         agreeComms: false,
+        captcha: ""
       });
     } catch (error) {
       console.error("Error sending message:", error);
@@ -164,10 +184,27 @@ export const Contact = (props) => {
                       name="agreeComms"
                       checked={formData.agreeComms}
                       onChange={handleChange}
+                      className="checkbox-input"
                     />{" "}
                     I agree to receive further communications from Citrix Tek.
                   </label>
                 </div>
+                <div className="form-group captcha-container">
+                  <LoadCanvasTemplate className="load-canvas"/>
+                  <input
+                    type="text"
+                    name="captcha"
+                    value={formData.captcha}
+                    className="form-control captcha-input"
+                    placeholder="Enter CAPTCHA"
+                    required
+                    onChange={handleChange}
+                />
+               
+              </div>
+              {!captchaValid && (
+                <div className="captcha-error">CAPTCHA is invalid. Please try again.</div>
+              )}
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
