@@ -15,6 +15,7 @@ export const Contact = (props) => {
     agreeComms: false, // Checkbox field
   });
 
+  const [submitted, setSubmitted] = useState(false);
   const [captchaValue, setCaptchaValue] = useState("");
   const [captchaValid, setCaptchaValid] = useState(false); // Track CAPTCHA validity
 
@@ -40,13 +41,14 @@ export const Contact = (props) => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setSubmitted(true); // Mark form as submitted
       // Validate CAPTCHA
       if (!validateCaptcha(formData.captcha)) {
         setCaptchaValid(false);
         return;
       }
       setCaptchaValid(true);
+      
 
     try {
       await fetch(GOOGLE_SHEET_URL, {
@@ -70,6 +72,7 @@ export const Contact = (props) => {
         agreeComms: false,
         captcha: ""
       });
+      loadCaptchaEnginge(6);
     } catch (error) {
       console.error("Error sending message:", error);
       alert("Error sending message. Please check your internet connection.");
@@ -202,7 +205,7 @@ export const Contact = (props) => {
                 />
                
               </div>
-              {!captchaValid && (
+              {!captchaValid && submitted && (
                 <div className="captcha-error">CAPTCHA is invalid. Please try again.</div>
               )}
                 <button type="submit" className="btn btn-custom btn-lg">
