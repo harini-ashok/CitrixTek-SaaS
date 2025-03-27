@@ -250,12 +250,12 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a target="_blank" href={props.data ? props.data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.linkedin : "/"}>
+                    <a target="_blank" href={props.data ? props.data.linkedin : "/"}>
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
