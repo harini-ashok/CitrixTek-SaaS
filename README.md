@@ -1,4 +1,4 @@
-# React Landing Page Template
+# React CitrixTek-SaaS Landing Page
 
 This project is a modern and responsive landing page built using React. It is designed to showcase your business, services, and team in an elegant and professional manner.
 
