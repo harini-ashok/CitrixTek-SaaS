@@ -17,22 +17,24 @@
     ],
     "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/01.jpeg",
       "name": "Ashok Lakshmichandran",
-      "job": "Managing Director"
+      "job": "Managing Director",
+      "info": "Ashok Lakshmichandran, founder of Futurenet Technologies, brings over 25 years of expertise in IT services, specializing in infrastructure, security, cloud migration, and business continuity. He leads a team of 200+ professionals, driving service excellence and customer satisfaction. Ashok also provides expert consulting, helping businesses align IT with strategic goals. Beyond his business success, he is a passionate orator and mentor, actively involved in the Rotary Club of Chennai Midcity and community initiatives."
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/02.jpeg",
+      "name": "Chandrasekar Balasubramanian",
+      "job": "Business Head - System Integration",
+      "info": "Chandrasekar Balasubramanian is a Senior Executive with over 30 years of experience in business development, sales, project management, and service delivery. He is known for his strategic thinking, entrepreneurial mindset, and ability to align business strategies with corporate goals. With expertise in presales, delivery management, and team building, he excels in problem-solving and maximizing performance. A skilled coach, Chandrasekar drives operational efficiencies while minimizing risks."
     }
   ]
   },
   "CaseStudies": [
     {
       "title": "Enhancing Citrix Infrastructure for an Architecture Consulting Firm",
-      "largeImage": "img/case1-large.jpg",
-      "smallImage": "img/case1-small.jpg",
+      "largeImage": "img/casestudies/arch.webp",
+      "smallImage": "img/casestudies/arch.webp",
       "problem": "The firm faced availability and security issues, affecting business continuity. IT admins needed continuous training for better infrastructure management.",
       "solution": "CitrixTek provided expert support to resolve security and availability challenges while implementing a structured knowledge-sharing program for IT administrators.",
       "benefits": [
@@ -42,8 +44,8 @@
     },
     {
       "title": "24/7 Citrix Support for a Pharmaceutical Company",
-      "largeImage": "img/case2-large.jpg",
-      "smallImage": "img/case2-small.jpg",
+      "largeImage": "img/casestudies/pharm.webp",
+      "smallImage": "img/casestudies/pharm.webp",
       "problem": "The company required round-the-clock Citrix support for critical imaging solutions, ensuring high availability and seamless operations.",
       "solution": "CitrixTek implemented proactive monitoring, maintenance, and rapid issue resolution to minimize downtime and enhance system reliability.",
       "benefits": [
@@ -82,14 +84,14 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/newgen.png",
+      "text": "\"CitrixTek has enhanced our remote access with robust security, minimal downtime, and swift issue resolution, keeping our team productive and efficient.\"",
+      "name": "Newgen"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/rand.png",
+      "text": "\"CitrixTek provides seamless remote access, strong security, and reliable support, ensuring smooth operations with minimal disruptions\"",
+      "name": "Rand Engineering & Architecture, DPC"
     }
   ],
   "Team": [
@@ -117,10 +119,9 @@
   "Contact": {
     "address": "33 Wood ave, #600, Iselin, NJ 08830",
     "phone": "+1 857 867 0438",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "support@citrixtek.com",
+    "facebook": "https://www.facebook.com/profile.php?id=100076275411480",
+    "linkedin": "https://www.linkedin.com/company/futurenet-technologies/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B66NyAldgSUu1GJ3lsl%2FDJg%3D%3D"
   },
   "Solutions": [
     {

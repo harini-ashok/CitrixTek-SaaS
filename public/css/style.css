@@ -299,13 +299,20 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+#aboutimg{
+  margin-top: -1rem !important;
+  box-shadow: none !important;
+}
 #about img {
   width: 520px;
-  margin-top: 10px;
+  margin-top: 5rem;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
 }
+
+
+
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -376,7 +383,7 @@ header .intro-text {
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
   );
-  padding: 30% 0 0;
+  padding: 20% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -388,7 +395,7 @@ header .intro-text {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
@@ -425,7 +432,7 @@ header .intro-text {
   display: block;
   width: 64px;
   height: 64px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .testimonial-content {
   position: relative;

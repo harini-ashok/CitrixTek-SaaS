@@ -6,7 +6,7 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            <img src="img/about.jpg" className="img-responsive" alt="" />
+            <img id="aboutimg"  src="img/team/about.gif" className="img-responsive" alt="" />
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -53,21 +53,29 @@ export const About = (props) => {
         <div className="row">
           <div className="col-12">
             <h2>Meet the Team</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
               dapibus leonec.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="row">
           {props.data
             ? props.data.Team.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
+                  <div className="flip-card">
+                    <div className="flip-card-inner">
+                      <div className="flip-card-front">
+                        <img src={d.img} alt="..." className="team-img" />
+                        <div className="caption">
+                          <h4>{d.name}</h4>
+                          <p>{d.job}</p>
+                        </div>
+                      </div>
+                      <div className="flip-card-back">
+                        <h4>About {d.name}</h4>
+                        <p>{d.info}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
