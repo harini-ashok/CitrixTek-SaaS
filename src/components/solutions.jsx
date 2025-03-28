@@ -10,7 +10,7 @@ export const Solutions = (props) => {
         <div className="row  solutions">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-4">
+                <div key={`${d.title}-${i}`} className="col-xs-9 col-md-6">
                   {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
