@@ -218,8 +218,8 @@ a:focus,
 }
 
 .intro .overlay {
-  background: rgba(24, 24, 24, 0.039);
-  backdrop-filter: blur(4px);
+  background: rgba(24, 24, 24, 0.3);
+  backdrop-filter: blur(6px);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
