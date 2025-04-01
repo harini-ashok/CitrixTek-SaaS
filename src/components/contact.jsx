@@ -180,8 +180,8 @@ export const Contact = (props) => {
                     onChange={handleChange}
                   ></textarea>
                 </div>
-                <div className="form-group">
-                  <label className="checkbox-inline">
+                <div className="form-group">"
+                  <label className="checkbox-inline" style={{padding: "3rem 0 3rem 0"}}>
                     <input
                       type="checkbox"
                       name="agreeComms"
