@@ -21,7 +21,7 @@
   background-color: transparent;
   perspective: 1000px;
   width: 100%; /* Ensure the card fits within its container */
-  height: 300px; /* Set a fixed height for consistent card size */
+  height: 50rem; /* Set a fixed height for consistent card size */
 }
 
 .flip-card-inner {
