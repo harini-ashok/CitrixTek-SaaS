@@ -43,14 +43,15 @@
       ]
     },
     {
-      "title": "24/7 Citrix Support for a Pharmaceutical Company",
+      "title": "Secure 24/7 Global Operations for an E-Publishing Company",
       "largeImage": "img/casestudies/pharm.webp",
       "smallImage": "img/casestudies/pharm.webp",
-      "problem": "The company required round-the-clock Citrix support for critical imaging solutions, ensuring high availability and seamless operations.",
-      "solution": "CitrixTek implemented proactive monitoring, maintenance, and rapid issue resolution to minimize downtime and enhance system reliability.",
+      "problem": "The company needed a secure, high-performance solution for 1,300+ global employees, supporting graphic-intensive Adobe workloads while ensuring compliance.",
+      "solution": "CitrixTek migrated their infrastructure to Citrix, optimizing design for seamless operations, security, and high availability.",
       "benefits": [
-        "High Availability at Optimal Cost: 24/7 support without excessive operational costs.",
-        "Expert Assistance: Continuous access to skilled Citrix professionals for fast issue resolution."
+        "Global Accessibility: Round-the-clock secure access for employees.",
+        "Enhanced Security & Compliance: Aligned with strict regulatory requirements.",
+        "Cost-Effective Performance: Optimized cost while maintaining high availability and security."
       ]
     }
   ],
@@ -85,7 +86,7 @@
   "Testimonials": [
     {
       "img": "img/testimonials/newgen.png",
-      "text": "\"CitrixTek has enhanced our remote access with robust security, minimal downtime, and swift issue resolution, keeping our team productive and efficient.\"",
+      "text": "CitrixTek (Powered by Futurenet Technologies) has enhanced our remote access with robust security, minimal downtime, and swift issue resolution, keeping our team productive and efficient.\nWe are 1400+ people organization who transitioned to completely work from home without any hitch during pandemic and still continuing that because of the Citrix solution implemented by CitrixTek.\nIt has given us seamless scalability, uniform process implementation and data security as the virtual desktop solution that CitrixTec has provided behind the Citrix, enables the entire team to work on the virtual desktop without any download capability to the local machine.\nCitrixTex is the backbone of our operations today.",
       "name": "Newgen"
     },
     {
