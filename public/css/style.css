@@ -430,8 +430,8 @@ header .intro-text {
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 10rem;
+  height: 6rem;
   border-radius: 10%;
 }
 .testimonial-content {
