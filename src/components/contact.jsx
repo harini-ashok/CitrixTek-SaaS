@@ -86,7 +86,7 @@ export const Contact = (props) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
-              <div className="section-title">
+              <div className="section-title contact-title">
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us a message. We’ll get back to you as soon as possible.

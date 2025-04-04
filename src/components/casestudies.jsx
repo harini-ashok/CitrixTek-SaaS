@@ -20,7 +20,7 @@ export const CaseStudies = (props) => {
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
-        <div className="section-title">
+        <div className="section-title case-studies-title">
           <h2>Case Studies</h2>
           <p>Explore how we help businesses achieve secure and high-performance Citrix environments.</p>
         </div>
