@@ -4,7 +4,7 @@ export const Solutions = (props) => {
   return (
     <div id="solutions" className="text-center">
       <div className="container">
-        <div className="section-title">
+        <div className="section-title solution-title">
           <h2>Solutions</h2>
         </div>
         <div className="row solutions" style={{display: "flex", flexWrap: "wrap"}}>

@@ -149,6 +149,32 @@ hr {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
+
+.solution-title{
+  margin-top: 110px;
+}
+
+@media (max-width: 768px) {
+  .contact-title{
+    margin-top:110px;
+  }
+}
+
+
+@media (min-width: 820px) and (max-width: 991px) {
+  .solution-title {
+    margin-top: 160px;
+  }
+  .testimonials-title {
+    margin-top: 80px;
+  }
+  .case-studies-title{
+    margin-top:80px;
+  }
+  .contact-title{
+    margin-top:80px;
+  }
+}
 .section-title h2::after {
   position: absolute;
   content: "";
@@ -262,6 +288,7 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #b4b57c 0%, #3aa3d0 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  align-content: center;
 }
 /* About Section */
 #about {
