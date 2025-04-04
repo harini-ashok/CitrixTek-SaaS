@@ -9,11 +9,37 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 100vw;
   }
 
   #portfolio {
     width: 110%;
+  }
+
+  #contact {
+    padding: 10px;
+  }
+
+  #contact .form-group {
+    margin-bottom: 10px;
+  }
+
+  #contact input,
+  #contact textarea {
+    font-size: 0.9rem;
+  }
+
+  #contact button {
+    font-size: 0.9rem;
+  }
+
+  #contact .captcha-container iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  #contact .checkbox-container label {
+    font-size: 0.9rem;
   }
 }
 
@@ -86,4 +112,117 @@
   font-size: 1rem; /* Adjust font size for better readability */
   line-height: 1.5; /* Improve line spacing */
   margin: 0; /* Remove unnecessary margins */
+}
+
+/* Contact Us page responsiveness */
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 20px;
+  }
+
+  #contact .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #contact input,
+  #contact textarea {
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #contact button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #contact .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #contact .contact-info h3 {
+    font-size: 1.2rem;
+  }
+
+  #contact .contact-info p {
+    font-size: 1rem;
+  }
+
+  #contact .captcha-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 3rem
+  }
+
+  #contact .captcha-container iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #contact .checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  #contact .checkbox-container label {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav.open {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    flex-direction: column;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    z-index: 1000 !important;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
 }
