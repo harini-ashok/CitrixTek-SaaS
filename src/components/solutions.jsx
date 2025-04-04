@@ -4,13 +4,13 @@ export const Solutions = (props) => {
   return (
     <div id="solutions" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="section-title">
           <h2>Solutions</h2>
         </div>
-        <div className="row  solutions">
+        <div className="row solutions" style={{display: "flex", flexWrap: "wrap"}}>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-9 col-md-6">
+                <div key={`${d.title}-${i}`} className="col-md-6">
                   {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
